@@ -513,7 +513,7 @@ npm i -D webpack-merge
 
 ```javascript
 // webpack-dev.js
-const merge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 const webpack = require('webpack')
 const common = require('./webpack.config')
 
@@ -552,7 +552,7 @@ What about our production build? Let's start with the same basic configuration.
 
 ```javascript
 // webpack-prod.js
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const webpack = require('webpack');
 const common = require('./webpack.config');
 
